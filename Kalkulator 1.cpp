@@ -10,14 +10,14 @@ int main(){
 	float bil1,bil2,hasil;
 	string operasi;
 	
-	cout<<"Sistem Kalkulator"<<endl;
+	cout<<"KALKULATOR SEDERHANA"<<endl;
 	cout<<"1. Penjumlahan"<<endl;
 	cout<<"2. Pengurangan"<<endl;
 	cout<<"3. Perkalian"<<endl;
 	cout<<"4. Pembagian"<<endl;
 	cout<<endl;
 	
-	cout<<"Masukan Pilihan : ";
+	cout<<"Masukan Pilihan Kamu : ";
 	cin>>pil;
 	cout<<"Masukan Bilangan pertama : ";
 	cin>>bil1;
@@ -43,7 +43,7 @@ int main(){
 	cout<<endl;
 	cout<<"HASIL : "<<bil1<<" "<<operasi<<" "<<bil2<<" "<<"="<<" "<<hasil<<endl;
 	cout<<endl;
-	cout<<"Terima Kasih Telah Menggunkan Kalkulator Sederhana ";
+	cout<<"Terima Kasih Telah Menggunkan Kalkulator Saya  ";
 	
 	getch();
 }
